@@ -5,14 +5,18 @@ gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3' , group: [:development ,:test]
 
-# Use bootstrap for style css 
-gem 'bootstrap-sass', '3.3.1'
+
 # Use postgreqsl as the databse for production
 group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
 
+# Use bootstrap for style css 
+gem 'bootstrap-sass', '3.3.1'
+
+# Use font-awesome
+gem 'font-awesome-sass' , '4.2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 # Use Uglifier as compressor for JavaScript assets
